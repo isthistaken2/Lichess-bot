@@ -35,7 +35,7 @@ This is the code of [@master_bot](https://lichess.org/@/master_bot) in [lichess.
 - You're now connected to lichess and awaiting challenges! Your bot is up and ready!
 
 **Note:** Incase of any errors during deploy of code to heroku, make sure to set the buildpack in the 'Settings' tab in heroku as given in the instructions [here](https://github.com/The-bot-makers/Lichess-bot#heroku-buildpack)
-
+    
 ### Important Notes
 
 - Make sure to disable/switch off the dyno once you are not monitoring your bot, for the bot used to crash in bullet often. In the recent very few games, this stopped happening, but until it is fully tested, switch off the dyno when you are monitoring your bot. If any error shows up in the logs, immediately restart all dynos by more-restart all dynos.
