@@ -112,7 +112,7 @@ def play_game(li, game_id, user_profile, config):
         engine_path = os.path.join(cfg["dir"], cfg["variantname"])
     engineeng = engine.SimpleEngine.popen_uci(engine_path)
     engineeng.configure({'Threads':10})
-    engineeng.configure({'Hash':960})
+    engineeng.configure({'Hash':300})
     try:
         engineeng.configure({'EvalFile':"nn-152a10c3e3b0.nnue"})
     except:
