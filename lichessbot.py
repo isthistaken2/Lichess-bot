@@ -114,7 +114,7 @@ def play_game(li, game_id, user_profile, config):
     engineeng.configure({'Threads':5})
     engineeng.configure({'Hash':120})
     try:
-        engineeng.configure({'EvalFile':"nn-4f56ecfca5b7.nnue"})
+        engineeng.configure({'EvalFile':"nn-152a10c3e3b0.nnue"})
     except:
         pass
     engineeng.configure({'Use NNUE':True})
