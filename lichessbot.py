@@ -117,7 +117,7 @@ def play_game(li, game_id, user_profile, config):
         engineeng.configure({'EvalFile':"nn-152a10c3e3b0.nnue"})
     except:
         pass
-    engineeng.configure({'Use NNUE':True})
+    engineeng.configure({'Use NNUE':False})
 
     logger.info("Game Details  :{}".format(game))
 
