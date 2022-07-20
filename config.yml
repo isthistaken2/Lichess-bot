@@ -30,6 +30,7 @@ challenge:                   # incoming challenges
     - rapid
     - classical
     - correspondence
+    - ultrabullet
   modes:                     # game modes to accept
     - casual                 # unrated games
     - rated                  # rated games - must comment if the engine doesn't try to win
